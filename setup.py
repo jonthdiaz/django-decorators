@@ -9,7 +9,7 @@ setup(
     url='http://pypi.python.org/pypi/django-decorators/',
     license='LICENSE.md',
     description='A bunch of django extra decorators.',
-    long_description=open('README.md').read(),
+    long_description=open('README.md', encoding='utf-8').read(),
     install_requires=[
         "Django >= 1.1.1",
     ],
